@@ -610,6 +610,11 @@ var counter = 0;
 const scrapeLogic = async (res) => {
   console.log('-------------start--------------');
   loadWebsiteContinuously(randomUrl(), 5000);
+  loadWebsiteContinuously(randomUrl(), 3000);
+  loadWebsiteContinuously(randomUrl(), 4000);
+  loadWebsiteContinuously(randomUrl(), 4500);
+  loadWebsiteContinuously(randomUrl(), 5500);
+  loadWebsiteContinuously(randomUrl(), 6500);
   res.send("ok");
 };
 
